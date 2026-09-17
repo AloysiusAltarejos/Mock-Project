@@ -1,0 +1,9 @@
+{
+  "name": "project-work-timer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Project-first work timing with an auditable local dashboard",
+  "engines": { "node": ">=20.10" },
+  "scripts": { "start": "node server.mjs", "test": "node --test", "demo": "node server.mjs --demo" }
+}
